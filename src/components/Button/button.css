@@ -1,0 +1,30 @@
+.btn {
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2;
+    width: 150px;
+    height: 55px;
+    margin: 10px;
+}
+
+.primary-btn {
+    background-color: #0000FF;
+    color: #fff;
+}
+
+.error-btn {
+    border: 1px solid red;
+    background: #fff;
+    color: red;
+}
+
+
+.disabled-btn {
+    background-color: gray;
+    color: darkgrey;
+    cursor: not-allowed;
+    opacity: 0.85;
+}
